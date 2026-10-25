@@ -25,13 +25,13 @@ Prepare one reproducibility review for Tamer. Pin PR 57 at `25a47f6f9deeed4a6f6d
 
 ## Acceptance Criteria
 
-- [ ] The pinned dependency installs in a fresh Python 3.12 virtual environment.
-- [ ] The reference runner, naive negative control, and fixture regeneration each have raw output and exit status.
-- [ ] A contribution-discovery probe distinguishes an undiscovered synthetic example from a checked mismatching example.
-- [ ] Upstream tracked content is unchanged after checks.
-- [ ] The report has a TL;DR, a clear diagram, limitations, exact resume steps, and a review checklist.
-- [ ] Standards and Spec reviews use a fixed local baseline. Material findings are addressed.
-- [ ] The substantive comment remains unposted until Tamer reviews it.
+- [x] The pinned dependency installs in a fresh Python 3.12 virtual environment.
+- [x] The reference runner, naive negative control, and fixture regeneration each have raw output and exit status.
+- [x] A contribution-discovery probe distinguishes an undiscovered synthetic example from a checked mismatching example.
+- [x] Upstream tracked content is unchanged after checks.
+- [x] The report has a TL;DR, a clear diagram, limitations, exact resume steps, and a review checklist.
+- [x] Standards and Spec reviews use a fixed local baseline. Material findings are addressed.
+- [x] The substantive comment remains unposted until Tamer reviews it.
 
 ## Testing Decisions
 
