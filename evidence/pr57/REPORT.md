@@ -92,7 +92,7 @@ The first run reports only the original six cases. The script then moves the sam
 Source references at the tested SHA:
 
 - [Template destination](https://github.com/aaif/wg-observability-and-traceability/blob/25a47f6f9deeed4a6f6d43b6d8393205d0bc494f/test-kit/TEMPLATE/mapping.md#L3).
-- [Runner discovery and comparison](https://github.com/aaif/wg-observability-and-traceability/blob/25a47f6f9deeed4a6f6d43b6d8393205d0bc494f/test-kit/run.py#L173).
+- [Runner discovery and comparison](https://github.com/aaif/wg-observability-and-traceability/blob/25a47f6f9deeed4a6f6d43b6d8393205d0bc494f/test-kit/run.py#L149).
 - [Reproduction script](reproduce.py) and [raw command output](results.json).
 
 A focused next step is to document the intended contribution run path. The author can choose whether examples belong under `cases/` or need a separate run command. This review does not select new runner semantics.
@@ -118,3 +118,9 @@ The charter requires applicable DCO/CLA compliance. No exact personal attestatio
 After Tamer approves posting, recheck PR 57's head and discussion. If the head changed, rerun at the new head and update the report. Then post the approved comment with an immutable evidence link. Do not merge or deploy.
 
 Prepared with Codex AI assistance. Short sentences and consistent terms follow the requested ASD-STE100-style approach. No certified compliance is claimed.
+
+## Independent review
+
+The fixed review baseline was `1ba5e574d8e7237192bd2baaf60e6cd3e9731d92`. The reviewed implementation commit was `c7ad56bd03cf8064f9f91a2eef3ee76ba8713fd9`.
+
+Standards review found no material violation. Spec review found no missing behavior or scope creep. Both requested a pinned evidence link in the final comment. Standards review also requested a clearer discovery anchor. Both items are corrected. The Spec reviewer independently reran the reproduction script and confirmed the same command outputs and exit codes. See [the review record](REVIEW.md).

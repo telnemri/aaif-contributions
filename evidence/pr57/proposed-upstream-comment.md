@@ -16,6 +16,6 @@ Could the contribution instructions state where a new example belongs and which 
 
 This used the kit's own reader and known expectations. It is not an independent reader implementation or answer-blind evaluation. The inputs are synthetic. The signature checks do not authenticate tenant metadata or establish real effects. I did not test runtime exports or full relationship coverage.
 
-Evidence: EVIDENCE_LINK_TO_BE_PINNED_AFTER_REVIEW
+Evidence: [commands, raw outputs, input hashes, and reproduction script](https://github.com/telnemri/aaif-contributions/tree/c7ad56bd03cf8064f9f91a2eef3ee76ba8713fd9/evidence/pr57)
 
 Prepared with Codex AI assistance and awaiting Tamer's review before posting.
