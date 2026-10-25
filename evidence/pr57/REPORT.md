@@ -6,14 +6,14 @@ All three documented checks passed on this Mac. The kit matched all six expected
 
 One contribution-path gap is reproducible. The template directs contributors to `test-kit/contributions/`. The runner does not discover examples there. An intentionally wrong answer stays unchecked there. The same example fails comparison under `test-kit/cases/`.
 
-The proposed contribution is a substantive review comment. It is ready for Tamer's review. It has not been posted. No upstream patch, fork, or PR was needed.
+Tamer approved the substantive review comment. It is [submitted upstream](https://github.com/aaif/wg-observability-and-traceability/pull/57#issuecomment-6393830488). Maintainer acceptance is not established. No upstream patch, fork, or PR was needed.
 
 ## Fixed sources
 
 - Account: `telnemri`. Verified with `gh auth status`, `gh api user`, and the GitHub connector. GitHub user ID: `48165554`.
 - [Upstream main](https://github.com/aaif/wg-observability-and-traceability/tree/f10288d27f769a4ff90184490100a0f7fdbc4d4e): `f10288d27f769a4ff90184490100a0f7fdbc4d4e`.
 - [Tested PR head](https://github.com/aaif/wg-observability-and-traceability/tree/25a47f6f9deeed4a6f6d43b6d8393205d0bc494f): `25a47f6f9deeed4a6f6d43b6d8393205d0bc494f`.
-- [Coordination comment](https://github.com/aaif/wg-observability-and-traceability/pull/57#issuecomment-6393683511). This is the only upstream comment posted by this effort.
+- [Coordination comment](https://github.com/aaif/wg-observability-and-traceability/pull/57#issuecomment-6393683511). This was posted before substantial work. The approved substantive review is linked above.
 - [Scope research](scope-research.md) records task dependencies, existing work, and policy checks.
 
 The isolated checkout is `upstream/` in the task workspace. Its local branch is `review/pr57`. Tracked content was clean before and after validation. Every recorded kit input retained its SHA-256 hash.
@@ -105,17 +105,17 @@ The six cases are synthetic. Signature verification uses the supplied synthetic 
 
 [Upstream CI run](https://github.com/aaif/wg-observability-and-traceability/actions/runs/40024856073) is separate from this local run. A maintainer must handle its required action. This review does not request or perform a workflow approval.
 
-The charter requires applicable DCO/CLA compliance. No exact personal attestation step was found. No attestation was made for Tamer. The September 30 minutes emphasize human participation. Tamer must review the substantive comment before it is posted. The packet discloses Codex AI assistance.
+The charter requires applicable DCO/CLA compliance. No exact personal attestation step was found. No attestation was made for Tamer. The September 30 minutes emphasize human participation. Tamer reviewed and approved the substantive comment before posting. The packet discloses Codex AI assistance.
 
 ## Tamer's review checklist
 
-- [ ] Read [the proposed upstream comment](proposed-upstream-comment.md).
-- [ ] Check that the contribution-path observation is clear.
-- [ ] Check the three passed checks and the deliberate diagnostic failure.
-- [ ] Confirm that the synthetic-data limits are clear.
-- [ ] Decide whether to post this comment on PR 57.
+- [x] Read [the proposed upstream comment](proposed-upstream-comment.md).
+- [x] Check that the contribution-path observation is clear.
+- [x] Check the three passed checks and the deliberate diagnostic failure.
+- [x] Confirm that the synthetic-data limits are clear.
+- [x] Decide whether to post this comment on PR 57.
 
-After Tamer approves posting, recheck PR 57's head and discussion. If the head changed, rerun at the new head and update the report. Then post the approved comment with an immutable evidence link. Do not merge or deploy.
+Tamer approved posting. The head and relevant discussion were unchanged at the publication recheck. No rerun was needed. The [published comment](https://github.com/aaif/wg-observability-and-traceability/pull/57#issuecomment-6393830488) has an immutable evidence link. Its author and exact body were verified after posting. See [submission details](submission.json). Maintainer acceptance remains pending.
 
 Prepared with Codex AI assistance. Short sentences and consistent terms follow the requested ASD-STE100-style approach. No certified compliance is claimed.
 

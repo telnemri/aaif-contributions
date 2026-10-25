@@ -1,3 +1,5 @@
+> Preparation record below. Superseded by [submission on PR 57](https://github.com/aaif/wg-observability-and-traceability/pull/57#issuecomment-6393830488) after Tamer's approval. The contribution is submitted; acceptance remains pending.
+
 Status: ready for Tamer's review. Local preparation is complete. The substantive upstream comment is unposted.
 
 TL;DR: All three documented checks passed at `25a47f6f9deeed4a6f6d43b6d8393205d0bc494f`. A contribution under the template destination was skipped. The same deliberately mismatching example under the cases directory was detected.
