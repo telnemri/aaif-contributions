@@ -1,0 +1,122 @@
+{
+  "source_sha": "25a47f6f9deeed4a6f6d43b6d8393205d0bc494f",
+  "environment": {
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "python": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "--version"
+      ],
+      "exit_code": 0,
+      "stdout": "Python 3.12.13\n",
+      "stderr": ""
+    },
+    "packages": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "-m",
+        "pip",
+        "freeze"
+      ],
+      "exit_code": 0,
+      "stdout": "cffi==2.1.1\ncryptography==50.0.1\npycparser==3.12\n",
+      "stderr": "WARNING: The directory '/Users/tamerwork/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\n"
+    }
+  },
+  "input_sha256": {
+    "test-kit/README.md": "201dc5b3579bda397dcd247d7ad26cde31e2aea265986c625566293d072bca53",
+    "test-kit/TEMPLATE/mapping.md": "08dc409069b3070c76652ba13128dc896097f8141d158d82ceaba4c4c32914ca",
+    "test-kit/cases/effects-action-id-reused-in-another-scope/basis.json": "2a938f1b9aa1d6d43ae32d4167e82f7f65e438771494a1895a8bf21e9ec2d9c3",
+    "test-kit/cases/effects-action-id-reused-in-another-scope/expected.json": "4203337c2a09e3e92681e57cff8d1527beb0910c444555ba54afc4f1f4834437",
+    "test-kit/cases/effects-action-id-reused-in-another-scope/records.otlp.json": "ff2a541d942d897201d2a2f47dd080d4931df38e0977527326e205ccc9548a48",
+    "test-kit/cases/effects-receipt-delivered-twice/basis.json": "fa68225ebbb2f518c1b674d01f5605e8828e162dc846a62f174d40b3376d22da",
+    "test-kit/cases/effects-receipt-delivered-twice/expected.json": "4203337c2a09e3e92681e57cff8d1527beb0910c444555ba54afc4f1f4834437",
+    "test-kit/cases/effects-receipt-delivered-twice/records.otlp.json": "2d70c9c518a1f08df77ad4aa3d8fc3556f9a14fcda77d86edca1591898d5b5a7",
+    "test-kit/cases/effects-receipt-missing/basis.json": "fa68225ebbb2f518c1b674d01f5605e8828e162dc846a62f174d40b3376d22da",
+    "test-kit/cases/effects-receipt-missing/expected.json": "69044eea73a345494b923d2d7b63da3197bd8989fb90d3e78866161ca6b2e47a",
+    "test-kit/cases/effects-receipt-missing/records.otlp.json": "ae4f61fe06dd1b1a0e0b2c797f8f9fff814ced080e7fb15b0e3a634207412442",
+    "test-kit/cases/effects-ticket-id-changed/basis.json": "fa68225ebbb2f518c1b674d01f5605e8828e162dc846a62f174d40b3376d22da",
+    "test-kit/cases/effects-ticket-id-changed/expected.json": "bee6ee2b87baa8e6188f2e5f830041cecf4b28b4ec52819cdfa12e2df4befba8",
+    "test-kit/cases/effects-ticket-id-changed/records.otlp.json": "af20aa26fa47b1454906d4b28b8b32431bf97780c618982c369d5ca1a033accb",
+    "test-kit/cases/evidence-grade-pair-fails/basis.json": "9c00fab289a43851e74237f4d7aceb64b30ecf93dd06132066fd538dd01e73b4",
+    "test-kit/cases/evidence-grade-pair-fails/expected.json": "91f3380776b7ed110f10cf96e491cb762fa4ae1b09d685289562c245daa91c9e",
+    "test-kit/cases/evidence-grade-pair-fails/records.otlp.json": "1363389e03ae5a3656e092d6f92c51e04ef20500ddfde10a4cca2de7a3e7c9d0",
+    "test-kit/cases/evidence-grade-pair-verifies/basis.json": "9c00fab289a43851e74237f4d7aceb64b30ecf93dd06132066fd538dd01e73b4",
+    "test-kit/cases/evidence-grade-pair-verifies/expected.json": "b5fa1767dfa6a2b58fc6d485f71c452cfb7033d151ab2da6b1fd54151f22ce96",
+    "test-kit/cases/evidence-grade-pair-verifies/records.otlp.json": "5408247a36ed3f3edaf509b9c082f5f47c40f729ab4eddb29272cd3693aa7c4d",
+    "test-kit/crosswalk.md": "79cadb0f21617f205df8d163e85cd7f8d36a6105c58ff5cd175a2f833fe5ab00",
+    "test-kit/generate.py": "9b1b578d2b6c42b4570b6624dc911196901a2cfa00da36e19015a5579a0b20fd",
+    "test-kit/mapping.md": "1a5ca0d2d1da687cd707a1e6ab3aea57c993c4668fabd3084a1e35e0dd032229",
+    "test-kit/requirements.txt": "50c05e24c9bc41635451ea2b82bf3f531884542c0ef312485b46f3d2a8681408",
+    "test-kit/run.py": "8c3d7c798ff904df4b5fad32fd7b3db7b8bf1868784fc7f8e88375157a7fdf7a",
+    "test-kit/trust/test-ticket-service.pub.pem": "7e2cca85e60abde07c9ca696630a8792f4429fa71a1a7a6b977a6f38e8619da0"
+  },
+  "checks": {
+    "reference": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "test-kit/run.py"
+      ],
+      "exit_code": 0,
+      "stdout": "ok   effects-action-id-reused-in-another-scope\nok   effects-receipt-delivered-twice\nok   effects-receipt-missing\nok   effects-ticket-id-changed\nok   evidence-grade-pair-fails\nok   evidence-grade-pair-verifies\nrun: 6 of 6 cases answered as expected.\n",
+      "stderr": ""
+    },
+    "naive_negative_control": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "test-kit/run.py",
+        "--reader",
+        "naive",
+        "--expect-fail"
+      ],
+      "exit_code": 0,
+      "stdout": "DIFF effects-action-id-reused-in-another-scope\n     expected {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042']}\n     got      {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042', 'T-2088']}\nDIFF effects-receipt-delivered-twice\n     expected {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042']}\n     got      {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042', 'T-1042']}\nDIFF effects-receipt-missing\n     expected {'action': 'P1', 'effect': 'unconfirmed', 'confirmed_tickets': None}\n     got      {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': []}\nok   effects-ticket-id-changed\nDIFF evidence-grade-pair-fails\n     expected {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042'], 'receipt_signature_verified': False}\n     got      {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-1042'], 'receipt_signature_verified': True}\nok   evidence-grade-pair-verifies\nrun: the naive reader fails every discriminating case, as it must.\n",
+      "stderr": ""
+    },
+    "regeneration": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "test-kit/generate.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "generate: fixtures match a rebuild.\n",
+      "stderr": ""
+    }
+  },
+  "probe": {
+    "description": "Copied template plus existing synthetic inputs; intentionally wrong expected answer.",
+    "under_contributions": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "test-kit/run.py"
+      ],
+      "exit_code": 0,
+      "stdout": "ok   effects-action-id-reused-in-another-scope\nok   effects-receipt-delivered-twice\nok   effects-receipt-missing\nok   effects-ticket-id-changed\nok   evidence-grade-pair-fails\nok   evidence-grade-pair-verifies\nrun: 6 of 6 cases answered as expected.\n",
+      "stderr": ""
+    },
+    "under_cases": {
+      "command": [
+        "/Users/tamerwork/Documents/Codex/2026-10-24/task/.venv-pr57/bin/python",
+        "test-kit/run.py"
+      ],
+      "exit_code": 1,
+      "stdout": "ok   effects-action-id-reused-in-another-scope\nok   effects-receipt-delivered-twice\nok   effects-receipt-missing\nok   effects-ticket-id-changed\nok   evidence-grade-pair-fails\nok   evidence-grade-pair-verifies\nDIFF review-probe\n     expected {'diagnostic': 'must fail if discovered'}\n     got      {'action': 'P1', 'effect': 'confirmed', 'confirmed_tickets': ['T-2088']}\nrun: 6 of 7 cases answered as expected.\n",
+      "stderr": ""
+    }
+  },
+  "tracked_status_after": {
+    "command": [
+      "git",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "inputs_unchanged": true,
+  "review_checks_passed": true
+}

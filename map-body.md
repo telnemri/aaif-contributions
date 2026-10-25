@@ -10,9 +10,12 @@ The user already fixed the destination and scope. No HITL interview is needed. R
 
 ## Decisions so far
 
+- [Choose a non-duplicated contribution from the trace-model work](https://github.com/telnemri/aaif-contributions/issues/2) — Select a reproducibility review of PR 57.
+- [Reproduce PR 57 and prepare a bounded upstream review](https://github.com/telnemri/aaif-contributions/issues/3) — Implementation-ready specification. Planning destination reached.
+
 ## Not yet specified
 
-Select a useful, non-duplicated contribution after checking PR 57 and Task 8 dependencies.
+None. Execution is tracked in [Run the kit and prepare the reproducibility review packet](https://github.com/telnemri/aaif-contributions/issues/4).
 
 ## Out of scope
 
